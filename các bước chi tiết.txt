@@ -1,0 +1,112 @@
+Các bước xây dựng app dat do an
+    Tạo thư mục src để lưu code
+    Tạo thư mục components  // thành phần
+
+    tạo file HeaderTabs.js
+    import file home vào app.js
+
+    HaderTabs.js
+        Viết hàm HeaderButton
+        Thiệt kế  nút giao nhận hàng
+            Nếu một nút sáng, nút còn lại tối
+        tạo nền
+    
+    Thêm thư viện icon: yarn add react-native-vector-icons
+                        yarn add react-native-google-places-autocomplete
+
+    Taoj SeachBar.js
+        gọi thư viện
+        styles lại cho thư viện
+    
+    Tao file Categories.js
+        Tao database
+
+    Tạo file RestaurantItem
+        tạp ảnh
+        tạo info
+        set ScrollView ở file home
+        tao dataBase
+        chen vong lap va thay bien tu database
+
+    Them thu vien navigation
+
+    Them file navigation.js để điều hướng di chuyển
+
+    * kết nối API
+
+    Tạo BottomTabs
+
+    // Tạo màn hình Restaurant
+    Tạo màn hình chính : RestaurantDetail.js
+    Tạo các thành phần: 
+        About.js
+            RestaurantImage
+            RestaurantName
+            RestaurantDescription
+        
+        MenuItem.js
+            funcion FoodInfo
+    
+    // thêm thư viên navigation để điều hướng
+
+    // ADD CHECKBOX
+        yarn add react-native-bouncy-checkbox
+        yarn add tslib
+    //tao ban do
+
+    // add ViewCard Button
+        style Button
+        them thu vien react redux
+        b1 tao thu muc redux, tao thư mục con reducers
+        b2: tạo file carReducers.js
+    
+    // file carReducers.js
+        Viết funcion carReducers()
+    
+    // tạo file index.js trong thư mục redux 
+
+    // tạo file Store.js
+
+    // vào file MenuItem
+        khai bao thuw vieenj:  import { useSelector, useDispatch } from 'react-redux';
+        them funcion selectItem()
+        thêm điều kiện onPress cho check box
+    
+    // vào ViewCard: việt biến gọi giá trị
+
+
+    // tạo Modal Cart 
+        cài thư viện:  
+            yarn add react-native-reanimated
+            yarn add reanimated-bottom-sheet
+    
+        tao modal trong file viewCart
+
+    // tao file OderItems
+
+    // tao Cart.js
+        // tao HeaderCart.js
+    
+    // tạo OrderCompletes.js
+        // add thư viện: yarn add lottie-react-native
+
+
+
+//=========================================================================\
+//==========================================================================
+Lưu ý:
+    rnf                     :   để tạo code defau sẵn
+    flexDirection:'row'     :   căn về hàng
+    alignSelf:'center'      :   Đưa về giữa
+    paddingVertical: 6      :   padding chiều dọc trục ox   
+    paddingHorizontal: 12   :   padding chiều ngang trục oy
+    resizeMode: "contain",  :
+    fontWeight: "bold"   
+    ScrollView
+        <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+            showsVerticalScrollIndicator={false}
+        key={index}
+
+
+    // dùng props để gán giá trị cho style
+    props.route.params

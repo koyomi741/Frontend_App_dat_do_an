@@ -1,0 +1,26 @@
+yarn add react-native-vector-icons
+yarn add react-native-google-places-autocomplete
+
+yarn add @react-navigation/native
+expo install react-native-screens react-native-safe-area-context
+yarn add react-native-screens react-native-safe-area-context
+yarn add @react-navigation/native-stack
+
+yarn add react-native-bouncy-checkbox
+yarn add tslib
+
+yarn add react-redux // đe lm ViewCard
+
+yarn add react-native-webview
+expo install expo-location
+
+yarn add react-native-reanimated
+yarn add reanimated-bottom-sheet
+
+
+yarn add lottie-react-native
+
+yarn add axios
+
+
+// tao animeation
